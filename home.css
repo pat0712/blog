@@ -1,0 +1,97 @@
+*{
+    
+    box-sizing:border-box ;
+    margin: 0;
+}
+.pops{
+    position: sticky;
+    top: 0;
+    background-color:gray;
+}
+.head{
+    background-color:silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid gray; */
+    box-shadow: 0 1px 36px gray;
+    border-radius: 10px;
+    border-bottom: 20px black;
+    padding-top :10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+
+}
+.dev
+{
+    font-weight: bold;
+    font-size: 35px;
+}
+.main-list{
+ 
+}
+.main-list >ul> li{
+   margin: 0.5rem 10px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main-list >ul> li:hover{
+
+color: gray;
+text-decoration: underline gray 2px;
+}
+.main-list >ul >li>a:hover{
+    color: grey;
+}
+button{
+    justify-content: center;
+    background-color:gray;
+    color: white;
+    width: 37%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:40px;
+    padding-left: 25px;
+    margin-right: 30px;
+    border-radius: 6px;
+}
+.parent{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 4px 36px black;
+    max-width: 50rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    transition-property:all;
+    transition-duration: 1.2s;
+    border-radius: 10px;
+
+}
+.parent:hover{
+    transform: scale(1.2);
+   box-shadow: 15px 15px 10px rgb(54, 51, 51);
+
+}
+.child{
+    width: 40%;
+    /* height: 30vh; */
+    /* background-color: gray; */
+    /* border: 5px solid black; */
+    
+    padding: 10px 10px 10px 10px;
+
+}
+.final{
+    margin-bottom: 20px;
+}
